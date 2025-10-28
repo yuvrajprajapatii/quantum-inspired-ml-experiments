@@ -1,0 +1,231 @@
+{
+  "summary": {
+    "wine": {
+      "Enhanced_TNC": {
+        "mean_accuracy": 0.9617890772128059,
+        "std_accuracy": 0.021766073926497022,
+        "mean_fit_time": 0.03339072863260905,
+        "std_fit_time": 0.010059765306317718,
+        "mean_predict_time": 0.0029301961263020833,
+        "std_predict_time": 0.0006471220293951874
+      },
+      "RandomForest": {
+        "mean_accuracy": 0.9865725047080979,
+        "std_accuracy": 0.012498041242326613,
+        "mean_fit_time": 0.15173616409301757,
+        "std_fit_time": 0.018441180731667742,
+        "mean_predict_time": 0.00677947998046875,
+        "std_predict_time": 0.0012873971805863475
+      },
+      "SVM": {
+        "mean_accuracy": 0.6741242937853108,
+        "std_accuracy": 0.03317877282216232,
+        "mean_fit_time": 0.0034226894378662108,
+        "std_fit_time": 0.0002949620925889054,
+        "mean_predict_time": 0.0014783064524332681,
+        "std_predict_time": 0.00012911801308806194
+      }
+    },
+    "mnist": {
+      "Enhanced_TNC": {
+        "mean_accuracy": 0.7580017142891394,
+        "std_accuracy": 0.015724623574708965,
+        "mean_fit_time": 0.10706445376078287,
+        "std_fit_time": 0.011742382669986168,
+        "mean_predict_time": 0.010615873336791991,
+        "std_predict_time": 0.0013504258295748248
+      },
+      "RandomForest": {
+        "mean_accuracy": 0.8701947456438474,
+        "std_accuracy": 0.015205742596530226,
+        "mean_fit_time": 0.48521916071573895,
+        "std_fit_time": 0.14323463660390445,
+        "mean_predict_time": 0.014018774032592773,
+        "std_predict_time": 0.005523945603037264
+      },
+      "SVM": {
+        "mean_accuracy": 0.9013990037942133,
+        "std_accuracy": 0.013240748847130702,
+        "mean_fit_time": 0.2092579205830892,
+        "std_fit_time": 0.03489964681761583,
+        "mean_predict_time": 0.2419456164042155,
+        "std_predict_time": 0.048526789972941096
+      }
+    },
+    "synthetic_2000d": {
+      "Enhanced_TNC": {
+        "mean_accuracy": 0.5523751296206387,
+        "std_accuracy": 0.03027161438276873,
+        "mean_fit_time": 0.44469571113586426,
+        "std_fit_time": 0.08617853504177622,
+        "mean_predict_time": 0.030153830846150715,
+        "std_predict_time": 0.011006301694758679
+      },
+      "RandomForest": {
+        "mean_accuracy": 0.5870049690408972,
+        "std_accuracy": 0.025021969296276547,
+        "mean_fit_time": 2.268872944513957,
+        "std_fit_time": 0.46816588648018803,
+        "mean_predict_time": 0.01598045031229655,
+        "std_predict_time": 0.0065278636951681245
+      },
+      "SVM": {
+        "mean_accuracy": 0.6176026325726923,
+        "std_accuracy": 0.019663946703488124,
+        "mean_fit_time": 0.6698297341664632,
+        "std_fit_time": 0.04884069906407943,
+        "mean_predict_time": 0.5987755616505941,
+        "std_predict_time": 0.052004474355036696
+      }
+    }
+  },
+  "statistical_tests": {
+    "wine": {
+      "Enhanced_TNC_vs_RandomForest": {
+        "power": 0.9457751392546148,
+        "qi_mean": 0.9617890772128059,
+        "qi_std": 0.021766073926497022,
+        "classical_mean": 0.9865725047080979,
+        "classical_std": 0.012498041242326613,
+        "t_statistic": -3.9035864305457486,
+        "t_pvalue": 0.0015904885454691758,
+        "wilcoxon_statistic": 1.0,
+        "wilcoxon_pvalue": 0.0027775798834759457,
+        "cohens_d": -1.3490785275747381,
+        "effect_size_interpretation": "large",
+        "significant_at_005": "True"
+      },
+      "Enhanced_TNC_vs_SVM": {
+        "power": 1.0,
+        "qi_mean": 0.9617890772128059,
+        "qi_std": 0.021766073926497022,
+        "classical_mean": 0.6741242937853108,
+        "classical_std": 0.03317877282216232,
+        "t_statistic": 28.376252750523754,
+        "t_pvalue": 8.985095490003039e-14,
+        "wilcoxon_statistic": 0.0,
+        "wilcoxon_pvalue": 0.0006162019349793728,
+        "cohens_d": 9.904577031820766,
+        "effect_size_interpretation": "large",
+        "significant_at_005": "True"
+      },
+      "RandomForest_vs_SVM": {
+        "power": 1.0,
+        "qi_mean": 0.9865725047080979,
+        "qi_std": 0.012498041242326613,
+        "classical_mean": 0.6741242937853108,
+        "classical_std": 0.03317877282216232,
+        "t_statistic": 30.754886583550896,
+        "t_pvalue": 2.960385228825054e-14,
+        "wilcoxon_statistic": 0.0,
+        "wilcoxon_pvalue": 0.0006418578334382444,
+        "cohens_d": 12.04032643108884,
+        "effect_size_interpretation": "large",
+        "significant_at_005": "True"
+      }
+    },
+    "mnist": {
+      "Enhanced_TNC_vs_RandomForest": {
+        "power": 1.0,
+        "qi_mean": 0.7580017142891394,
+        "qi_std": 0.015724623574708965,
+        "classical_mean": 0.8701947456438474,
+        "classical_std": 0.015205742596530226,
+        "t_statistic": -20.225632185808543,
+        "t_pvalue": 9.235830721533302e-12,
+        "wilcoxon_statistic": 0.0,
+        "wilcoxon_pvalue": 0.0006533107814151377,
+        "cohens_d": -7.007580613814157,
+        "effect_size_interpretation": "large",
+        "significant_at_005": "True"
+      },
+      "Enhanced_TNC_vs_SVM": {
+        "power": 1.0,
+        "qi_mean": 0.7580017142891394,
+        "qi_std": 0.015724623574708965,
+        "classical_mean": 0.9013990037942133,
+        "classical_std": 0.013240748847130702,
+        "t_statistic": -26.676686607224088,
+        "t_pvalue": 2.1020808766139617e-13,
+        "wilcoxon_statistic": 0.0,
+        "wilcoxon_pvalue": 0.0006500242387180628,
+        "cohens_d": -9.530577866579316,
+        "effect_size_interpretation": "large",
+        "significant_at_005": "True"
+      },
+      "RandomForest_vs_SVM": {
+        "power": 0.9998545120758678,
+        "qi_mean": 0.8701947456438474,
+        "qi_std": 0.015205742596530226,
+        "classical_mean": 0.9013990037942133,
+        "classical_std": 0.013240748847130702,
+        "t_statistic": -11.170444551524959,
+        "t_pvalue": 2.33266179867183e-08,
+        "wilcoxon_statistic": 0.0,
+        "wilcoxon_pvalue": 0.0006533107814151377,
+        "cohens_d": -2.114461878615849,
+        "effect_size_interpretation": "large",
+        "significant_at_005": "True"
+      }
+    },
+    "synthetic_2000d": {
+      "Enhanced_TNC_vs_RandomForest": {
+        "power": 0.8895491823770239,
+        "qi_mean": 0.5523751296206387,
+        "qi_std": 0.03027161438276873,
+        "classical_mean": 0.5870049690408972,
+        "classical_std": 0.025021969296276547,
+        "t_statistic": -2.7953046975445015,
+        "t_pvalue": 0.01431196070069725,
+        "wilcoxon_statistic": 18.0,
+        "wilcoxon_pvalue": 0.01507568359375,
+        "cohens_d": -1.204690704454309,
+        "effect_size_interpretation": "large",
+        "significant_at_005": "True"
+      },
+      "Enhanced_TNC_vs_SVM": {
+        "power": 0.9999973970709061,
+        "qi_mean": 0.5523751296206387,
+        "qi_std": 0.03027161438276873,
+        "classical_mean": 0.6176026325726923,
+        "classical_std": 0.019663946703488124,
+        "t_statistic": -8.442266585533512,
+        "t_pvalue": 7.279990096851713e-07,
+        "wilcoxon_statistic": 0.0,
+        "wilcoxon_pvalue": 0.0006516660806139112,
+        "cohens_d": -2.468794981626043,
+        "effect_size_interpretation": "large",
+        "significant_at_005": "True"
+      },
+      "RandomForest_vs_SVM": {
+        "power": 0.9346824428767755,
+        "qi_mean": 0.5870049690408972,
+        "qi_std": 0.025021969296276547,
+        "classical_mean": 0.6176026325726923,
+        "classical_std": 0.019663946703488124,
+        "t_statistic": -3.6293960990103864,
+        "t_pvalue": 0.0027343028159434513,
+        "wilcoxon_statistic": 10.0,
+        "wilcoxon_pvalue": 0.004497866597920755,
+        "cohens_d": -1.3136095306509947,
+        "effect_size_interpretation": "large",
+        "significant_at_005": "True"
+      }
+    }
+  },
+  "complexity_analysis": {},
+  "recommendations": [
+    "\u2717 Quantum-inspired method shows significant degradation on wine (0.962 vs 0.987, p=0.0016)",
+    "\u2713 Quantum-inspired method shows significant improvement on wine (0.962 vs 0.674, p=0.0000)",
+    "\u2022 Significant difference on wine (RandomForest_vs_SVM): 0.987 vs 0.674, p=0.0000",
+    "\u2717 Quantum-inspired method shows significant degradation on mnist (0.758 vs 0.870, p=0.0000)",
+    "\u2717 Quantum-inspired method shows significant degradation on mnist (0.758 vs 0.901, p=0.0000)",
+    "\u2022 Significant difference on mnist (RandomForest_vs_SVM): 0.870 vs 0.901, p=0.0000",
+    "\u2717 Quantum-inspired method shows significant degradation on synthetic_2000d (0.552 vs 0.587, p=0.0143)",
+    "\u2717 Quantum-inspired method shows significant degradation on synthetic_2000d (0.552 vs 0.618, p=0.0000)",
+    "\u2022 Significant difference on synthetic_2000d (RandomForest_vs_SVM): 0.587 vs 0.618, p=0.0027",
+    "\u26a1 Quantum-inspired methods achieve 4.5x speedup on wine",
+    "\u26a1 Quantum-inspired methods achieve 4.5x speedup on mnist",
+    "\u26a1 Quantum-inspired methods achieve 5.1x speedup on synthetic_2000d"
+  ]
+}

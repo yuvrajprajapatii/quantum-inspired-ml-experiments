@@ -1,0 +1,10 @@
+Dataset,Method,Accuracy,Training_Time,Predict_Time
+wine,Quantum-Inspired,0.962±0.022,0.054±0.009,0.005±0.001
+wine,RandomForest,0.987±0.012,0.169±0.037,0.007±0.002
+wine,SVM,0.674±0.033,0.003±0.001,0.001±0.000
+mnist,Quantum-Inspired,0.758±0.016,0.133±0.015,0.013±0.002
+mnist,RandomForest,0.870±0.015,0.468±0.101,0.013±0.006
+mnist,SVM,0.901±0.013,0.162±0.027,0.181±0.028
+synthetic_2000d,Quantum-Inspired,0.552±0.030,0.295±0.045,0.019±0.003
+synthetic_2000d,RandomForest,0.587±0.025,2.370±0.181,0.015±0.002
+synthetic_2000d,SVM,0.618±0.020,0.706±0.063,0.642±0.057
