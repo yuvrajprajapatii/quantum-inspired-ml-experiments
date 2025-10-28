@@ -35,6 +35,7 @@ Quantum-inspired machine learning seeks to leverage quantum computing conceptsâ€
 - [Datasets](#datasets)
 - [Algorithms](#algorithms)
 - [Experimental Results](#experimental-results)
+- [Visualizations](#visualizations)
 - [Development Roadmap](#development-roadmap)
 - [Contributing](#contributing)
 - [Documentation](#documentation)
