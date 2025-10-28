@@ -1,0 +1,11 @@
+{
+  "random_forest": {
+    "accuracy": 1.0,
+    "training_time": 0.3020896911621094
+  },
+  "tensor_network_classifier": {
+    "accuracy": 0.6388888888888888,
+    "training_time": 0.006903409957885742,
+    "speedup_vs_rf": 43.75948886202728
+  }
+}
