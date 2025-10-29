@@ -690,8 +690,6 @@ If you reference this work:
 
 ## Acknowledgments
 
-## Acknowledgments
-
 This research leverages open-source libraries including **TensorLy**, **Scikit-learn**, **NumPy**, **SciPy**, **Matplotlib**, and **Pandas**. And Educational resources from YouTube lectures and online Resources that strengthened our understandings. 
 Special thanks to the **MIT OpenCourseWare** for providing freely accessible, world-class educational content that made this research possible.
 
