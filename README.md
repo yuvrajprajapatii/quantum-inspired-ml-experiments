@@ -735,7 +735,7 @@ Special thanks to the **MIT OpenCourseWare** for providing freely accessible, wo
 4. Submit PR with tests
 
 ### To Use These Methods
-⚠️ **Not recommended yet**. Wait for Phase 5-6 completion.
+**Not recommended yet**. Wait for Phase 5-6 completion.
 
 ### To Build Upon This Work
 1. Study the tensor operations foundation
