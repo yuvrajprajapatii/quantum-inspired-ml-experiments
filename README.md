@@ -651,7 +651,7 @@ conda env create -f environment.yml
 
 ## License
 
-MIT License – Open for research and non-commercial use.
+MIT License – Open for research.
 
 Full license text: [LICENSE](LICENSE)
 
